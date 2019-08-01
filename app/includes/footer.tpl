@@ -14,22 +14,14 @@
   <article class="block__wrap" style="max-width: 1780px; margin: auto;">
 
     <section class="footer--left">
-
-      <a href="/"><img src="images/myetherwallet-logo.png" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"/></a>
-
       <p>
-        <span translate="FOOTER_1">
           Free, open-source, client-side interface for generating Xerom wallets.
         </span>
       </p>
-      <p>
-        &copy; 2019 Xerom
-      </p>
 
     </section>
-
     <section class="footer--righ">
-   
+      
 
       <p>
         <a aria-label="reddit" href="http://www.reddit.com/r/Xerom" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
