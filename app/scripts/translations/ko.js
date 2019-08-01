@@ -72,12 +72,12 @@ ENS_WrongAddress_2              :  '다음 주소로 지갑을 열어주세요 '
 
 ENS_Bid_Title                   :  '입찰하기',
 ENS_Finalize                    :  '종료',
-ENS_Finalize_content            :  'ENS 이름을 낙찰자에게 양도하고 경매를 종료합니다. 낙찰자는 자신의 입찰가와 그 다음으로 가장 높은 입찰가 사이의 차액을 환불 받을 수 있습니다. 당신이 유일한 입찰자라면, 0.01 ETH를 제외한 모든 금액을 환불 받을 것입니다. 낙찰받지 못한 모든 사람도 환불받습니다.',
+ENS_Finalize_content            :  'ENS 이름을 낙찰자에게 양도하고 경매를 종료합니다. 낙찰자는 자신의 입찰가와 그 다음으로 가장 높은 입찰가 사이의 차액을 환불 받을 수 있습니다. 당신이 유일한 입찰자라면, 0.01 XERO를 제외한 모든 금액을 환불 받을 것입니다. 낙찰받지 못한 모든 사람도 환불받습니다.',
 ENS_Finalize_content_1          :  '경매를 종료하고 이름을 요청하려 합니다:',
 ENS_Helper_1                    :  '경매의 과정은 다음과 같습니다',
 ENS_Helper_2                    :  '1) 준비',
 ENS_Helper_3                    :  '어떤 계정으로 이름을 소유할지 결정하고, 해당 계정에 여러개의 백업을 준비하고 확인합니다..',
-ENS_Helper_4                    :  '이름 구매를 위해 지불할 최대 ETH 수량을 결정합니다(<u>입찰 금액</u>). 입찰액 + 가스 가격(0.01 ETH)을 충분히 가진 계정인지 확인하세요.',
+ENS_Helper_4                    :  '이름 구매를 위해 지불할 최대 XERO 수량을 결정합니다(<u>입찰 금액</u>). 입찰액 + 가스 가격(0.01 XERO)을 충분히 가진 계정인지 확인하세요.',
 ENS_Helper_5                    :  '2) 경매 시작하기 / 입찰하기',
 ENS_Helper_6                    :  '입찰 기한은 3일입니다 (72시간).',
 ENS_Helper_7                    :  '<u>이름</u> 및 <u>입찰단가</u>, <u>비밀 번호</u>로 보호되는 <u>입찰 마스크>를 입력합니다.',
@@ -89,12 +89,12 @@ ENS_Helper_12                   :  '계정 잠금을 해제하고<u>입찰금액
 ENS_Helper_13                   :  '두 명이 같은 금액으로 입찰한 경우, 입찰가를 먼저 공개한 사람에게 낙찰됩니다.',
 ENS_Helper_14                   :  '4) 경매 종료',
 ENS_Helper_15                   :  '경매가 종료되면 (5일 후/ 120시간), 낙찰자는 새 이름을 청구하기 위해 경매를 종료해야 합니다.',
-ENS_Helper_16                   :  '낙찰자는 입찰가와 그다음으로 가장 높은 입찰가의 차액을 환불받게 됩니다. 당신이 유일한 입찰자라면, 0.01 ETH를 제외한 모든 금액을 환불받게 됩니다.',
+ENS_Helper_16                   :  '낙찰자는 입찰가와 그다음으로 가장 높은 입찰가의 차액을 환불받게 됩니다. 당신이 유일한 입찰자라면, 0.01 XERO를 제외한 모든 금액을 환불받게 됩니다.',
 ENS_Helper_17                   :  '추가 정보',
 ENS_Helper_18                   :  'registrar을 위한 경매는 블라인드 경매이며, 이곳에 서술되어 있습니다.',
 ENS_Helper_19                   :  '기본적으로, 모든 사람은 경매기간 동안 *어떤 것도* 볼 수 없습니다.',
 ENS_Helper_20                   :  'ENS: 문서 보기',
-ENS_Helper_21                   :  'Ethereum Name Service(ENS) 재출시일 공지!',
+ENS_Helper_21                   :  'Xerom Name Service(ENS) 재출시일 공지!',
 ENS_Helper_22                   :  '도움말 센터: ENS',
 ENS_Helper_23                   :  '[BAD INSTRUCTION] 입찰가 공개 디버깅',
 ENS_Helper_24                   :  '현재 발견된 이슈에 대한 지원 처리가 심각한 지연이 발생하고 있습니다. 지원요청을 하기 전에 위 문서를 참고하여 문제 해결을 시도해보시기 바랍니다. 죄송합니다. :(',
@@ -135,7 +135,7 @@ ONBOARD_interface_content__2    :  '키 처리는 전적으로 컴퓨터 브라�
 ONBOARD_interface_content__3    :  '저희는 당신의 개인 키, 비밀번호 또는 기타 계정 정보를 전송, 수신 또는 저장하지 않습니다.',
 ONBOARD_interface_content__4    :  '거래 수수료도 청구하지 않습니다.',
 ONBOARD_interface_content__5    :  '우리 **인터페이스**를 사용하기만 하면 **블록체인과 직접** 상호 작용 할 수 있습니다.',
-ONBOARD_interface_content__6    :  '*공개 키(주소)*를 다른 사용자에게 보내면, 해당 사용자는 ETH 또는 토큰을 당신에게 보낼 수 있습니다. 👍',
+ONBOARD_interface_content__6    :  '*공개 키(주소)*를 다른 사용자에게 보내면, 해당 사용자는 XERO 또는 토큰을 당신에게 보낼 수 있습니다. 👍',
 ONBOARD_interface_content__7    :  '*개인 키*를 다른 사용자에게 보내면, 그들은 계정의 모든 권한을 가지게 됩니다. 👎',
 ONBOARD_bank_title__alt         :  'MEW는 은행이 아닙니다',
 ONBOARD_blockchain_title__alt   :  '블록체인이란?',
@@ -175,7 +175,7 @@ ONBOARD_secure_1_title          :  '피싱범으로부터 자신을 지키는 �
 ONBOARD_secure_1_content__1     :  '피싱범은 MyEtherWallet, EtherDelta, Paypal 또는 은행과 유사하게 보이는 웹 사이트로 가는 링크가 담긴 메시지를 보내지만, 이것은 진짜 웹 사이트가 아닙니다. 피싱 사이트는 당신의 정보와 돈을 훔칩니다.',
 ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)을 설치하거나 [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) 혹은 [Metacert에서 제공하는 Cryptonite](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) 혹은 [MyEtherWallet 크롬 확장 프로그램](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)을 설치해서 악성 웹사이트를 차단하세요.',
 ONBOARD_secure_1_content__3     :  'URL을 항상 확인하세요: `https://vintage.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'URL 주소창에서 `MYETHERWALLET INC` 문구가 녹색이 맞는지 확인하세요.',
+ONBOARD_secure_1_content__4     :  'URL 주소창에서 `MYXEROERWALLET INC` 문구가 녹색이 맞는지 확인하세요.',
 ONBOARD_secure_1_content__5     :  '이메일, Slack, Reddit, 트위터 등에서 오는 무작위로 발송된 정체불명의 메시지나 링크를 믿지마세요.',
 ONBOARD_secure_1_content__6     :  '정보를 입력하기 전에 항상 사이트로 직접 이동하세요. 메시지 또는 이메일에서 링크를 클릭해서 정보를 입력하지 마세요.',
 ONBOARD_secure_1_content__7     :  '[AdBlocker를 설치하세요](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) 그리고 검색엔진에서 광고를 클릭하지 메세요 (예. 구글).',
@@ -228,7 +228,7 @@ tx_notFound                 : '트랜잭션을 찾을 수 없습니다',
 tx_notFound_1               : '연결된 노드의 TX풀에서 이 TX를 찾을 수 없습니다.',
 tx_notFound_2               : '방금 전송하셨다면 15초간 기다렸다가 "TX상태 확인" 버튼을 다시 누르세요. ',
 tx_notFound_3               : '여전히 다른 노드의 TX풀에서 채굴되기를 기다리는 상태일 수 있습니다.',
-tx_notFound_4               : '오른쪽 상단에 있는 드롭 다운 목록에서 다른 ETH노드를 선택한 다음 (예. `ETH (Etherscan.io)` 혹은 `ETH (Infura.io)` 혹은 `ETH (MyEtherWallet)`) 다시 확인합니다.',
+tx_notFound_4               : '오른쪽 상단에 있는 드롭 다운 목록에서 다른 XERO노드를 선택한 다음 (예. `XERO (Etherscan.io)` 혹은 `XERO (Infura.io)` 혹은 `XERO (MyEtherWallet)`) 다시 확인합니다.',
 tx_foundInPending           : '보류중인 트랜잭션이 발견되었습니다',
 tx_foundInPending_1         : '트랜잭션이 연결된 노드의 TX풀에 위치하고 있습니다. ',
 tx_foundInPending_2         : '현재 보류 중(채굴되기를 기다리는 중). ',
@@ -236,7 +236,7 @@ tx_foundInPending_3         : '트랜잭션을 "취소" 하거나 교체할 수 
 tx_FoundOnChain             : '트랜잭션이 발견되었습니다',
 tx_FoundOnChain_1           : '트랜잭션이 성공적으로 채굴되어 블록 체인상에 기록되었습니다.',
 tx_FoundOnChain_2           : '**만약 빨간색으로 표시된 `( ! )`, 잘못된 인스트럭션 (`BAD INSTRUCTION`) 혹은 가스부족(`OUT OF GAS`) 오류 메시지**가 보인다면, 트랜잭션이 성공적으로 *전송*되지 않은 것입니다. 이 트랜잭션은 취소하거나 교체할 수 없습니다. 그 대신에 새 트랜잭션을 보내야 합니다. "가스부족"오류가 발생한 경우 원래 지정한 가스 한도를 두배로 늘려야 합니다. ',
-tx_FoundOnChain_3           : '**오류 메시지가 없다면 트랜잭션이 성공적으로 전송된 것입니다.** 이제 전송한 ETH 혹은 토큰은 전송된 곳에 있습니다. ETH 또는 토큰을 다른 지갑/거래소 계정에 입금된 것을 볼 수 없다면, 그리고 보낸 후 24시간이 지난 후라면, [관련 서비스에 문의하시기 바랍니다](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). 문의할 때 트랜잭션에 해당하는 *링크*를 보내어 친절하게 당신의 상황을 살펴보라고 부탁하세요.',
+tx_FoundOnChain_3           : '**오류 메시지가 없다면 트랜잭션이 성공적으로 전송된 것입니다.** 이제 전송한 XERO 혹은 토큰은 전송된 곳에 있습니다. XERO 또는 토큰을 다른 지갑/거래소 계정에 입금된 것을 볼 수 없다면, 그리고 보낸 후 24시간이 지난 후라면, [관련 서비스에 문의하시기 바랍니다](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). 문의할 때 트랜잭션에 해당하는 *링크*를 보내어 친절하게 당신의 상황을 살펴보라고 부탁하세요.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : '', /* FIXME */
@@ -263,9 +263,9 @@ GET_ConfButton              : '이해했습니다. 계속하기.',
 GEN_Label_5                 : '`개인 키` 저장. ',
 GEN_Unlock                  : '주소를 보기 위해 지갑을 풀기',
 GAS_PRICE_Desc              : '가스 가격은 가스 단위당 지불할 금액입니다. `TX 수수료 = 가스 가격 * 가스 한도`이며 TX를 포함한 블록을 채굴한 채굴자에게 수수료가 지급됩니다. 높은 가스 가격 = 트랜잭션은 빨라지나 가격은 비쌈. 기본값은 `41 GWEI`.',
-GAS_LIMIT_Desc              : '가스 한도는 TX와 함께 보내게 될 가스의 양입니다. `TX 수수료` = 가스 가격 * 가스 한도이며 TX를 포함한 블록을 채굴한 채굴자에게 수수료가 지급됩니다. 가스 한도를 늘려도서 TX 채굴 속도가 빨라지지는 않습니다. ETH 전송 = `21000`. 토큰 전송 = ~`200000`.',
+GAS_LIMIT_Desc              : '가스 한도는 TX와 함께 보내게 될 가스의 양입니다. `TX 수수료` = 가스 가격 * 가스 한도이며 TX를 포함한 블록을 채굴한 채굴자에게 수수료가 지급됩니다. 가스 한도를 늘려도서 TX 채굴 속도가 빨라지지는 않습니다. XERO 전송 = `21000`. 토큰 전송 = ~`200000`.',
 NONCE_Desc                  : 'nonce는 특정 주소에서 전송된 TX의 회수입니다. 이는 트랜잭션이 순차적으로 이루어지고 두번 이상 이루어지지 않도록 보장해줍니다.',
-TXFEE_Desc                  : 'TX 수수료는 TX를 포함한 블록을 캔 채굴자에게 지불됩니다. 이는 `가스 한도` * `가스 가격` 입니다. [GWEI단위 -> ETH단위로 변환할 수 있습니다.](https://vintage.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'TX 수수료는 TX를 포함한 블록을 캔 채굴자에게 지불됩니다. 이는 `가스 한도` * `가스 가격` 입니다. [GWEI단위 -> XERO단위로 변환할 수 있습니다.](https://vintage.myetherwallet.com/helpers.html)',
 
 
 
@@ -447,7 +447,7 @@ SEND_raw                    : 'RAW 트랜잭션 ',
 SEND_signed                 : '서명된 트랜잭션 ',
 SEND_trans                  : '트랜잭션 전송하기 ',
 SENDModal_Title             : '경고! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 XERO" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : '전송할 예정입니다. ',
 SENDModal_Content_2         : '받는 주소 ',
 SENDModal_Content_3         : '정말 전송 하시겠습니까? ',
@@ -468,7 +468,7 @@ TRANS_warning               : '"이더리움만 전송하기" 또는 "이더리�
 TRANS_advanced              : '+고급: 데이터 추가 ',
 TRANS_data                  : '데이터 ',
 TRANS_gas                   : '가스 한도 ',
-TRANS_sendInfo              : '21000 가스를 사용하는 표준 트랜잭션은 0.000441 ETH 를 사용합니다. MyEtherWallet은 트랜잭션 수수료를 받지 않습니다. ',
+TRANS_sendInfo              : '21000 가스를 사용하는 표준 트랜잭션은 0.000441 XERO 를 사용합니다. MyEtherWallet은 트랜잭션 수수료를 받지 않습니다. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : '오프라인 트랜잭션 생성 & 전송하기 ',
@@ -517,7 +517,7 @@ NODE_CTA                    : '사용자 정의 노드 저장 또는 사용 ',
 /* Swap / Exchange */
 SWAP_rates                  : "현재 시세 ",
 SWAP_init_1                 : "다음을 환전하려 합니다 ",
-SWAP_init_2                 : "에서 ", // "I want to swap my X ETH for X BTC"
+SWAP_init_2                 : "에서 ", // "I want to swap my X XERO for X BTC"
 SWAP_init_CTA               : "진행! ", // or "Continue"
 SWAP_information            : "정보 ",
 SWAP_send_amt               : "전송량 ",
@@ -530,11 +530,11 @@ SWAP_time                   : "남은 전송 시간 ",
 SWAP_elapsed                : "전송 후 경과 시간 ",
 SWAP_progress_1             : "주문 개시 ",
 SWAP_progress_2             : "기다리는 중… : ", // Waiting for your BTC...
-SWAP_progress_3             : "수신 완료! ", // ETH Received!
+SWAP_progress_3             : "수신 완료! ", // XERO Received!
 SWAP_progress_4             : "{{orderResult.output.currency}} 전송하는 중 ",
 SWAP_progress_5             : "주문 완료 ",
-SWAP_order_CTA              : "전송해주세요 : ", // Please send 1 ETH...
-SWAP_unlock                 : "ETH 또는 토큰을 이 페이지에서 바로 전송하기 위해 지갑을 해제해주세요. ",
+SWAP_order_CTA              : "전송해주세요 : ", // Please send 1 XERO...
+SWAP_unlock                 : "XERO 또는 토큰을 이 페이지에서 바로 전송하기 위해 지갑을 해제해주세요. ",
 
 /* Sign Message */
 MSG_message                 : '메시지 ',
@@ -574,7 +574,7 @@ ERROR_13                    : '(error_14) 같은 별명을 가진 지갑이 이�
 ERROR_14                    : '(error_15) 지갑을 찾을 수 없습니다. ',
 ERROR_15                    : '(error_16) 이 ID에 대한 제안서가 존재하지 않거나 읽기를 실패하였습니다. ',
 ERROR_16                    : '(error_17) 같은 주소의 지갑이 이미 존재합니다. 지갑 페이지를 확인해주세요. ',
-ERROR_17                    : '(error_18) 잔액이 부족합니다. 가스 한도 * 가스 가격 + 보낼 수량 총합이 현 계정 잔액보다 부족합니다. 계정에 ETH를 보충하거나 "모든 잔액 전송" 버튼을 누르세요. 이것이 오류라고 생각한다면 생성 버튼을 다시 누르세요. 필요한 수량 (d+)과 실제 수량: (d+). [더 배우기](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+ERROR_17                    : '(error_18) 잔액이 부족합니다. 가스 한도 * 가스 가격 + 보낼 수량 총합이 현 계정 잔액보다 부족합니다. 계정에 XERO를 보충하거나 "모든 잔액 전송" 버튼을 누르세요. 이것이 오류라고 생각한다면 생성 버튼을 다시 누르세요. 필요한 수량 (d+)과 실제 수량: (d+). [더 배우기](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
 ERROR_18                    : '(error_19) 모든 가스가 이 트랜잭션에 사용될 것입니다. 이것은 이미 투표를 진행했거나 토론 기간이 종료되었기 때문입니다. ',
 ERROR_19                    : '(error_20) 올바른 기호를 넣어주세요 ',
 ERROR_20                    : '(error_21) 올바른 ERC-20 토큰이 아닙니다 ',
@@ -601,7 +601,7 @@ ERROR_40                    : '(error_41) 올바른 개인키를 입력해주세
 
 SUCCESS_1                   : '올바른 주소 ',
 SUCCESS_2                   : '지갑이 성공적으로 복호화되었습니다. ',
-SUCCESS_3                   : 'TX가 네트워크로 브로드캐스트 되었습니다. 이는 채굴과 전송이 되었다는 것을 뜻하지 않습니다. 볼륨이 극단적인 경우 +3시간 이상 걸릴 수 있습니다. 1) 아래의 TX를 확인하세요. 2) 몇시간 동안 보류 중이거나 사라진 경우에는 TX 상태 체크 페이지를 통해 교체합니다. 3) [ETH 가스 스테이션](https://ethgasstation.info/)을 사용하여 최적의 가스 가격을 살펴봅니다. 4) 필요하다면 TX 해시값을 저장해두세요:  ',
+SUCCESS_3                   : 'TX가 네트워크로 브로드캐스트 되었습니다. 이는 채굴과 전송이 되었다는 것을 뜻하지 않습니다. 볼륨이 극단적인 경우 +3시간 이상 걸릴 수 있습니다. 1) 아래의 TX를 확인하세요. 2) 몇시간 동안 보류 중이거나 사라진 경우에는 TX 상태 체크 페이지를 통해 교체합니다. 3) [XERO 가스 스테이션](https://ethgasstation.info/)을 사용하여 최적의 가스 가격을 살펴봅니다. 4) 필요하다면 TX 해시값을 저장해두세요:  ',
 SUCCESS_4                   : '지갑이 성공적으로 추가되었습니다. ',
 SUCCESS_5                   : '파일이 선택되었습니다. ',
 SUCCESS_6                   : '성공적으로 연결되었습니다. ',
@@ -609,15 +609,15 @@ SUCCESS_7                   : '메시지 서명이 검증되었습니다. ',
 WARN_Send_Link              : '주소, 값, 가스, 데이터 필드 또는 트랜잭션 유형 (전송 모드)이 링크를 통해 도착했습니다. 전송하기 전에 정보를 변경할 수 있습니다. 시작하려면 지갑 잠금을 해제해주세요. ',
 
 /* Geth Error Messages */
-GETH_InvalidSender         : '잘못된 전송지입니다. ',
-GETH_Nonce                  : 'Nonce가 너무 낮습니다. ',
-GETH_Cheap                  : '가스 가격이 너무 낮습니다. ',
-GETH_Balance                : '잔액이 부족합니다. ',
-GETH_NonExistentAccount     : '계정이 존재 하지 않거나 잔액이 부족합니다. ',
-GETH_InsufficientFunds      : '가스 * 가격 + 수량에 대한 자금이 부족합니다.',
-GETH_IntrinsicGas           : '기본 가스가 부족합니다. ',
-GETH_GasLimit               : '블록 가스 한도를 초과하였습니다. ',
-GETH_NegativeValue          : '마이너스 값 ',
+GXERO_InvalidSender         : '잘못된 전송지입니다. ',
+GXERO_Nonce                  : 'Nonce가 너무 낮습니다. ',
+GXERO_Cheap                  : '가스 가격이 너무 낮습니다. ',
+GXERO_Balance                : '잔액이 부족합니다. ',
+GXERO_NonExistentAccount     : '계정이 존재 하지 않거나 잔액이 부족합니다. ',
+GXERO_InsufficientFunds      : '가스 * 가격 + 수량에 대한 자금이 부족합니다.',
+GXERO_IntrinsicGas           : '기본 가스가 부족합니다. ',
+GXERO_GasLimit               : '블록 가스 한도를 초과하였습니다. ',
+GXERO_NegativeValue          : '마이너스 값 ',
 
 /* Parity Error Messages */
 PARITY_AlreadyImported      : "이미 동일한 해시를 사용한 트랜잭션을 가져 왔습니다. ",
@@ -670,7 +670,7 @@ TranslatorAddr_5            : ' ',
 HELP_Warning                : '**2015년 3월** 이전에 지갑을 만들었거나 저장소를 다운로드했다면, 지갑 &amp; 저장소의 새 버전을 확인하고 다운로드해주세요. 자세한 내용을 보려면 클릭해주세요. ',
 HELP_Desc                   : '잘못된 부분이나 다른 질문이 있으신가요? [우리에게 연락해주세요](mailto : support@myetherwallet.com), 당신의 질문에 답변하는 것 뿐만 아니라, 향후 사용자들에게 더 유용할 수 있도록 페이지를 업데이트할 것입니다. ',
 HELP_Remind_Title           :  '몇 가지 알림 ',
-HELP_Remind_Desc_1          : '**이더리움, MyEtherWallet.com & MyEtherWallet CX, 그리고 우리가 사용하는 JavaScript 라이브러리는 활발하게 개발되고 있습니다. ** 우리가 철저하게 테스트를 진행하여 수만 개의 지갑이 전 세계 사람들에 의해 성공적으로 만들어졌지만 예상치 못한 일이 발생하여 ETH를 잃을 가능성이 항상 존재합니다. 항상 조심해주세요. 만약 무슨 일이 발생한다면, 유감스럽지만 **우리는 잃어버린 이더리움에 대한 책임을 지지 않습니다.** ',
+HELP_Remind_Desc_1          : '**이더리움, MyEtherWallet.com & MyEtherWallet CX, 그리고 우리가 사용하는 JavaScript 라이브러리는 활발하게 개발되고 있습니다. ** 우리가 철저하게 테스트를 진행하여 수만 개의 지갑이 전 세계 사람들에 의해 성공적으로 만들어졌지만 예상치 못한 일이 발생하여 XERO를 잃을 가능성이 항상 존재합니다. 항상 조심해주세요. 만약 무슨 일이 발생한다면, 유감스럽지만 **우리는 잃어버린 이더리움에 대한 책임을 지지 않습니다.** ',
 HELP_Remind_Desc_2          : 'MyEtherWallet.com과 MyEtherWallet CX는 웹 지갑이 아닙니다. 계정을 만들거나 우리에게 당신이 가진 이더리움을 주면 안 됩니다. 모든 데이터는 당신의 컴퓨터와 브라우저에 남아 있을 것입니다. 우리는 당신이 쉽게 당신의 정보를 만들고, 저장하고, 접근하고 블록체인과 상호 작용할 수 있도록 도울 것입니다. ',
 HELP_Remind_Desc_3          : '당신의 개인 키와 암호를 저장하지 않으면, 지갑에 액세스할 수 없게 될 뿐만 아니라, 지갑에 있는 자금에도 접근할 수 없게 됩니다. 개인 키와 암호를 컴퓨터뿐만 아니라 &ndash; 다양한 실제 위치(ex :인쇄, 메모 등...)에도 백업해야 합니다! ',
 
@@ -777,7 +777,7 @@ HELP_7_Desc_14              : '팝업창이 열리면 보내는 양과 주소가
 HELP_7_Desc_15              : '트랜잭션이 전송되면 TXID가 나타날 것입니다. 해당 TXID를 클릭하여 블록체인에서 볼 수 있습니다. ',
 HELP_8_Title                : '8) MyEtherWallet 서버가 다운되면 어떻게 되나요? ',
 HELP_8_Desc_1               : 'MyEtherWallet은 웹 지갑이 아닙니다. 서버에는 로그인은 물론 어떠한 것도 저장되지 않습니다. MyEtherWallet은 단지 블록체인에 접근 하게 해주는 도구입니다. ',
-HELP_8_Desc_2               : '만약 MyEtherWallet.com이 다운된다면, 다른 대안 도구(geth 또는 Ethereum Wallet / Mist 등)를 사용해야 합니다. 이때 MyEtherWallet에서 이더리움을 "꺼내야" 할 필요는 없습니다. 이더리움은 MyEtherWallet.com을 통해서 생성된 지갑 내에 존재합니다. ',
+HELP_8_Desc_2               : '만약 MyEtherWallet.com이 다운된다면, 다른 대안 도구(geth 또는 Xerom Wallet / Mist 등)를 사용해야 합니다. 이때 MyEtherWallet에서 이더리움을 "꺼내야" 할 필요는 없습니다. 이더리움은 MyEtherWallet.com을 통해서 생성된 지갑 내에 존재합니다. ',
 HELP_8_Desc_3               : '암호화되지 않은 개인 키와 암호화된 Geth/Mist 형식의 파일은 쉽게 geth / 이더리움 지갑 / Mist에서 불러올 수 있습니다. 아래의 질문 #12를 확인해주세요. ',
 HELP_8_Desc_4               : '또한, MyEtherWallet이 다운 될 가능성은 희박합니다. 우리는 어떠한 정보도 저장하지 않기 때문에 비용이 들지 않습니다. 도메인이 다운되더라도, 항상 공개적으로  [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages)을 통해 로컬 지갑을 시작할 수 있습니다. ZIP 파일을 다운 받아주세요. ',
 

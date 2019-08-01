@@ -67,12 +67,12 @@ ENS_WrongAddress_1              :  'La billetera que desbloqueaste no posee el n
 ENS_WrongAddress_2              :  'Desbloquee la billetera con la dirección ',
 
 ENS_Finalize                    :  'Finalizar',
-ENS_Finalize_content            :  'Al finalizar este nombre, se asigna el nombre ENS al pujador ganador. Al ganador se le reembolsará la diferencia entre su oferta y la siguiente oferta más alta. Si usted es el único postor, se le reembolsará todo menos 0.01 ETH. Cualquier no ganador también será reembolsado.',
+ENS_Finalize_content            :  'Al finalizar este nombre, se asigna el nombre ENS al pujador ganador. Al ganador se le reembolsará la diferencia entre su oferta y la siguiente oferta más alta. Si usted es el único postor, se le reembolsará todo menos 0.01 XERO. Cualquier no ganador también será reembolsado.',
 ENS_Finalize_content_1          :  'Está a punto de finalizar la subasta y reclamar el nombre:',
 ENS_Helper_1                    :  '¿Cómo es el proceso?',
 ENS_Helper_2                    :  '1) Preparación',
 ENS_Helper_3                    :  'Decida en qué cuenta desea tener el nombre y asegúrese de tener varias copias de seguridad de esa cuenta.',
-ENS_Helper_4                    :  'Decida la cantidad máxima de ETH que está dispuesto a pagar por el nombre (su <u> Monto de oferta </ u>). Asegúrese de que la cuenta tenga suficiente para cubrir su oferta + 0.01 ETH para el gas.',
+ENS_Helper_4                    :  'Decida la cantidad máxima de XERO que está dispuesto a pagar por el nombre (su <u> Monto de oferta </ u>). Asegúrese de que la cuenta tenga suficiente para cubrir su oferta + 0.01 XERO para el gas.',
 ENS_Helper_5                    :  '2) Comience una subasta / haga una oferta',
 ENS_Helper_6                    :  'El período de oferta dura 3 días (72 horas).',
 ENS_Helper_7                    :  'Ingresará el <u> nombre </ u>, <u> Cantidad de oferta actual </ u>, <u> Máscara de oferta </ u>, que está protegida por una <u> Frase secreta </ u>.',
@@ -84,12 +84,12 @@ ENS_Helper_12                   :  'Desbloquee su cuenta, ingrese el <u> Monto d
 ENS_Helper_13                   :  'En el caso de que dos partes ofrezcan exactamente la misma cantidad, la primera oferta revelada ganará.',
 ENS_Helper_14                   :  '4) finalizar la subasta',
 ENS_Helper_15                   :  'Una vez que la subasta ha finalizado (después de 5 días / 120 horas), el ganador debe finalizar la subasta para poder reclamar su nuevo nombre.',
-ENS_Helper_16                   :  'Al ganador se le reembolsará la diferencia entre su oferta y la siguiente oferta más alta. Si usted es el único postor, se le reembolsará todo menos 0.01 ETH.',
+ENS_Helper_16                   :  'Al ganador se le reembolsará la diferencia entre su oferta y la siguiente oferta más alta. Si usted es el único postor, se le reembolsará todo menos 0.01 XERO.',
 ENS_Helper_17                   :  'Más información',
 ENS_Helper_18                   :  'La subasta de este registrador es una subasta ciega, y se describe en',
 ENS_Helper_19                   :  'Básicamente, nadie puede ver *cualquier cosa* durante la subasta.',
 ENS_Helper_20                   :  'ENS: Lee los documentos',
-ENS_Helper_21                   :  '¡Anunciando la fecha de relanzamiento del servicio de nombres de Ethereum!',
+ENS_Helper_21                   :  '¡Anunciando la fecha de relanzamiento del servicio de nombres de Xerom!',
 ENS_Helper_22                   :  'Base de conocimientos: ENS',
 ENS_Helper_23                   :  'Debugging a [BAD INSTRUCTION] Reveal',
 ENS_Helper_24                   :  'Please try the above before relying on support for reveal issues as we are severely backlogged on support tickets. We\'re so sorry. :(',
@@ -128,7 +128,7 @@ ONBOARD_interface_content__2    :  'El manejo de sus llaves ocurre completamente
 ONBOARD_interface_content__3    :  'Nunca transmitimos, recibimos ni almacenamos su clave privada, contraseña u otra información de cuenta.',
 ONBOARD_interface_content__4    :  'No cobramos una comisión de transacción.',
 ONBOARD_interface_content__5    :  'Simplemente está utilizando nuestra **interfaz** para interactuar **directamente con la cadena de bloques**.',
-ONBOARD_interface_content__6    :  'Si envía su *clave pública (dirección)* a alguien, pueden enviarle ETH o tokens. 👍',
+ONBOARD_interface_content__6    :  'Si envía su *clave pública (dirección)* a alguien, pueden enviarle XERO o tokens. 👍',
 ONBOARD_interface_content__7    :  'Si envía su *clave privada* a alguien, ahora tiene el control total de su cuenta. 👎',
 ONBOARD_bank_title__alt         :  'MEW no es un banco',
 ONBOARD_blockchain_title__alt   :  '¿Qué es una Blockchain?',
@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'Cómo protegerse de los phishers',
 ONBOARD_secure_1_content__1     :  'Phishers le envía un mensaje con un enlace a un sitio web que se parece a MyEtherWallet, EtherDelta, Paypal o a su banco, pero no es el sitio web real. Le roban su información y luego le roban su dinero.',
 ONBOARD_secure_1_content__2     :  'Instala [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Siempre revisa la URL: `https://vintage.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Siempre asegúrese de que la barra de URL tenga `MYETHERWALLET INC` en verde.',
+ONBOARD_secure_1_content__4     :  'Siempre asegúrese de que la barra de URL tenga `MYXEROERWALLET INC` en verde.',
 ONBOARD_secure_1_content__5     :  'No confíe en los mensajes o enlaces que se le envían al azar por correo electrónico, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Siempre navegue directamente a un sitio antes de ingresar información. No ingrese información después de hacer clic en un enlace de un mensaje o correo electrónico.',
 ONBOARD_secure_1_content__7     :  '[Instala un AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -221,7 +221,7 @@ tx_notFound                 : 'Transacción no encontrada',
 tx_notFound_1               : 'Esta transacción no se puede encontrar en el pool de transacciones del nodo al que estás conectado.',
 tx_notFound_2               : 'Si acabas de enviar la transacción, por favor espera 15 segundos y pulsa de nuevo el botón "Comprobar estado de transacción". ',
 tx_notFound_3               : 'Podría encontrarse todavía en el pool de transacciones de otro nodo diferente, esperando ser minado.',
-tx_notFound_4               : 'Por favor usa el desplegable en la parte superior derecha y selecciona un nodo ETH diferente (ej. `ETH (Etherscan.io)` o `ETH (Infura.io)` o `ETH (MyEtherWallet)`) y comprueba de nuevo.',
+tx_notFound_4               : 'Por favor usa el desplegable en la parte superior derecha y selecciona un nodo XERO diferente (ej. `XERO (Etherscan.io)` o `XERO (Infura.io)` o `XERO (MyEtherWallet)`) y comprueba de nuevo.',
 tx_foundInPending           : 'Transacción pendiente encontrada',
 tx_foundInPending_1         : 'Tu transacción se ha encontrado en el pool de transacciones del nodo al que te encuentras conectado. ',
 tx_foundInPending_2         : 'Actualmente está pendiente (esperando ser minada). ',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Existe la posibilidad de que puedas "cancelar" o 
 tx_FoundOnChain             : 'Transacción encontrada',
 tx_FoundOnChain_1           : 'Tu transacción ha sido minada con éxito y se encuentra en la cadena de bloques.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your XERO or Tokens are where you sent them. If you cannot see this XERO or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Usa tu',
@@ -256,9 +256,9 @@ GET_ConfButton              : 'Entiendo. Continuar.',
 GEN_Label_5                 : 'Guarde su `clave privada`.',
 GEN_Unlock                  : 'Desbloquea tu cartera para ver tu dirección',
 GAS_PRICE_Desc              : 'El precio del gas es la cantidad que paga por unidad de gas. `Tarifa de TX = precio de gas * límite de gas` y se paga a los mineros por incluir su TX en un bloque. Mayor el precio del gas = transacción más rápida, pero más costosa. El valor predeterminado es `41 GWEI`.',
-GAS_LIMIT_Desc              : 'El límite de gas es la cantidad de gas a enviar con su TX. `Tarifa de TX` = precio de gas * límite de gas y se paga a los mineros por incluir su TX en un bloque. Al aumentar este número, tu TX no se extrae más rápido. Enviando ETH = `21000`. Envío de Tokens = ~ `200000`.',
+GAS_LIMIT_Desc              : 'El límite de gas es la cantidad de gas a enviar con su TX. `Tarifa de TX` = precio de gas * límite de gas y se paga a los mineros por incluir su TX en un bloque. Al aumentar este número, tu TX no se extrae más rápido. Enviando XERO = `21000`. Envío de Tokens = ~ `200000`.',
 NONCE_Desc                  : 'El nonce es el número de transacciones enviadas desde una dirección determinada. Asegura que las transacciones se envíen en orden y no más de una vez.',
-TXFEE_Desc                  : 'La tarifa de TX se paga a los mineros por incluir su TX en un bloque. Es el `límite de gas` * `precio del gas`. [Puede convertir GWEI -> ETH aquí](https://vintage.myetherwallet.com/helpers.html)',
+TXFEE_Desc                  : 'La tarifa de TX se paga a los mineros por incluir su TX en un bloque. Es el `límite de gas` * `precio del gas`. [Puede convertir GWEI -> XERO aquí](https://vintage.myetherwallet.com/helpers.html)',
 
 
 
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Cartera Ether JavaScript de código abierto ejecu
 CX_Tagline                  : 'Cartera Ether JavaScript de código abierto ejecutado en el cliente extensión Chrome ',
 
 /* Footer */
-FOOTER_1                    : 'Una herramienta de código abierto JavaScript que se ejecuta en el lado del cliente, para generar carteras y enviar transacciones Ethereum. ',
+FOOTER_1                    : 'Una herramienta de código abierto JavaScript que se ejecuta en el lado del cliente, para generar carteras y enviar transacciones Xerom. ',
 FOOTER_1b                   : 'Creado por ',
 FOOTER_2                    : 'Se agradecen las donaciones: ',
 FOOTER_3                    : 'Generación de carteras en el cliente por ',
@@ -392,7 +392,7 @@ SEND_signed                 : 'Transacción firmada ',
 SEND_trans                  : 'Enviar transacción ',
 SEND_custom                 : 'Añadir token personalizado ',
 SENDModal_Title             : '¡Atención! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 XERO" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Vas a enviar ',
 SENDModal_Content_2         : 'a la dirección ',
 SENDModal_Content_3         : '¿Estás seguro de que quieres hacer esto? ',
@@ -409,19 +409,19 @@ TOKEN_show                  : 'Mostrar todos los tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Si quieres enviar tokens, utiliza la página "Enviar tokens" en lugar de esta. ',
-TRANS_warning               : 'Si utilizas las funciones "Sólo ETH" o "Sólo ETC" estás enviando a través de un contrato. Algunos servicios tienen problemas aceptando estas transacciones. Leer más. ',
+TRANS_warning               : 'Si utilizas las funciones "Sólo XERO" o "Sólo ETC" estás enviando a través de un contrato. Algunos servicios tienen problemas aceptando estas transacciones. Leer más. ',
 TRANS_advanced              : '+Avanzado: Añadir datos ',
 TRANS_data                  : 'Datos ',
 TRANS_gas                   : 'Límite de gas ',
-TRANS_sendInfo              : 'Una transacción estándar que utiliza 21000 gas cuesta 0.000441 ETH. Utilizamos un precio de gas de 0.000000021 ETH, ligeramente por encima del mínimo, para asegurarnos de que se mina con rapidez. Nosotros no recibimos ninguna comisión por la transacción. ',
+TRANS_sendInfo              : 'Una transacción estándar que utiliza 21000 gas cuesta 0.000441 XERO. Utilizamos un precio de gas de 0.000000021 XERO, ligeramente por encima del mínimo, para asegurarnos de que se mina con rapidez. Nosotros no recibimos ninguna comisión por la transacción. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Transacciones "Sólo ETH" y "Sólo ETC" ',
+TRANSModal_Title            : 'Transacciones "Sólo XERO" y "Sólo ETC" ',
 TRANSModal_Content_0        : 'Una nota sobre las distintas transacciones y servicios: ',
-TRANSModal_Content_1        : '**ETH (transacción estándar): ** Esto genera una transacción predeterminada directamente de una dirección a otra. Utiliza gas predeterminado de 21000. Es probable que cualquier transacción de ETH enviada mediante este método se reproduzca (replay) en la cadena ETC. ',
-TRANSModal_Content_2        : '**Sólo ETH: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **ETH**. ',
+TRANSModal_Content_1        : '**XERO (transacción estándar): ** Esto genera una transacción predeterminada directamente de una dirección a otra. Utiliza gas predeterminado de 21000. Es probable que cualquier transacción de XERO enviada mediante este método se reproduzca (replay) en la cadena ETC. ',
+TRANSModal_Content_2        : '**Sólo XERO: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **XERO**. ',
 TRANSModal_Content_3        : '**Sólo ETC: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **ETC**. ',
-TRANSModal_Content_4        : '**Coinbase y ShapeShift: ** Envía solamente utilizando transacción estándar. Si envías utilizando los contratos "Sólo ETH" o "Sólo ETC", será necesario que contactes con su equipo de soporte para que añadan manualmente el saldo o te lo devuelvan. [También puedes probar la herramienta de "split" de Shapeshift.](https://split.shapeshift.io/) ',
+TRANSModal_Content_4        : '**Coinbase y ShapeShift: ** Envía solamente utilizando transacción estándar. Si envías utilizando los contratos "Sólo XERO" o "Sólo ETC", será necesario que contactes con su equipo de soporte para que añadan manualmente el saldo o te lo devuelvan. [También puedes probar la herramienta de "split" de Shapeshift.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken y Poloniex:** No se conocen problemas. Usa cualquiera. ',
 TRANSModal_Yes              : 'Bien, ahora lo entiendo. ',
 TRANSModal_No               : 'Estoy más confundido. Ayuda, por favor. ',
@@ -503,7 +503,7 @@ CONTRACT_Write              : 'ESCRIBIR ',
 /* Swap / Exchange */
 SWAP_rates                  : "Tipos de cambio actuales ",
 SWAP_init_1                 : "Quiero cambiar mis ",
-SWAP_init_2                 : " por ", // "I want to swap my X ETH for X BTC"
+SWAP_init_2                 : " por ", // "I want to swap my X XERO for X BTC"
 SWAP_init_CTA               : "Continuar", // or "Continue"
 SWAP_information            : "Tu información ",
 SWAP_send_amt               : "Cantidad a enviar ",
@@ -516,11 +516,11 @@ SWAP_time                   : "Tiempo restante para enviar ",
 SWAP_elapsed				        : "Time elapsed since sent ",
 SWAP_progress_1             : "Pedido iniciado ",
 SWAP_progress_2             : "Esperando recibir tus ", // Waiting for your BTC...
-SWAP_progress_3             : "¡Recibido! ", // ETH Received!
+SWAP_progress_3             : "¡Recibido! ", // XERO Received!
 SWAP_progress_4             : "Enviando tu {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Pedido completado ",
-SWAP_order_CTA              : "Por favor, envía ", // Please send 1 ETH...
-SWAP_unlock                 : "Desbloquea tu cartera para enviar ETH o tokens directamente desde esta página. ",
+SWAP_order_CTA              : "Por favor, envía ", // Please send 1 XERO...
+SWAP_unlock                 : "Desbloquea tu cartera para enviar XERO o tokens directamente desde esta página. ",
 
 /* Sign Message */
 MSG_message                 : 'Mensaje ',
@@ -540,7 +540,7 @@ MNEM_prev                   : 'Direcciones anteriores ',
 /* Hardware wallets */
 x_Ledger                    : 'Ledger Wallet ',
 ADD_Ledger_1                : 'Conecta tu Ledger Wallet ',
-ADD_Ledger_2                : 'Inicia la aplicacin Ethereum (o una aplicación de contrato) ',
+ADD_Ledger_2                : 'Inicia la aplicacin Xerom (o una aplicación de contrato) ',
 ADD_Ledger_2_Exp            : 'Inicia la aplicacin Expanse (o una aplicación de contrato) ',
 ADD_Ledger_2_Ubq            : 'Inicia la aplicacin Ubiq (o una aplicación de contrato) ',
 ADD_Ledger_3                : 'Comprueba que "Browser Support" está activado en "Settings" ',
@@ -581,7 +581,7 @@ ERROR_13                        :  '(error_14) Ya existe una cartera con este al
 ERROR_14                        :  '(error_15) Cartera no encontrada. Wallet not found.', // 14
 ERROR_15                        :  '(error_16) No parece que exista todavía una propuesta con este ID o hay un error al leer esta propuesta. Whoops. It doesn\'t look like a proposal with this ID exists yet or there is an error reading this proposal.', // 15 - NOT USED
 ERROR_16                        :  '(error_17) Ya hay almacenada una cartera con esta dirección. Por favor comprueba la página de carteras. A wallet with this address already exists in storage. Please check your wallets page.', // 16
-ERROR_17                        :  '(error_18) Fondos no suficientes para gas * precio + valor. Es necesario tener al menos 0.01 ether en tu cuenta para cubrir el coste del gas. Añade algo de ether e inténtalo de nuevo. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)', // 17
+ERROR_17                        :  '(error_18) Fondos no suficientes para gas * precio + valor. Es necesario tener al menos 0.01 ether en tu cuenta para cubrir el coste del gas. Añade algo de ether e inténtalo de nuevo. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more XERO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)', // 17
 ERROR_18                        :  '(error_19) Sería necesario utilizar todo el gas en esta transacción. Esto significa que ya has votado en esta propuesta o que el periodo de debate ha concluido. All gas would be used on this transaction. This means you have already voted on this proposal or the debate period has ended.', // 18
 ERROR_19                        :  '(error_20) Introduce un Símbolo válido Please enter a valid symbol', // 19
 ERROR_20                        :  '(error_21) No es un token ERC-20 válido Not a valid ERC-20 token', // 20
@@ -605,15 +605,15 @@ ERROR_37                        :  '(error_38) Enter valid hex string (0-9, a-f)
 ERROR_38                        :  '(error_39) Offer must have either price or reserve set to more than 0', // 38
 ERROR_39                        :  '(error_40) Bid must be more than the specified minimum', // 39
 
-GETH_Balance                    :  '(geth-01) Saldo insuficiente. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
-GETH_Cheap                      :  '(geth-02) Precio de gas demasiado bajo para aceptación. Gas price too low for acceptance. Try raising the gas price to 21 GWEI via the dropdown in top-right.',
-GETH_GasLimit                   :  '(geth-03) Sobrepasa el límite de gas del bloque. Exceeds block gas limit. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)',
-GETH_InsufficientFunds          :  '(geth-04) Fondos no suficientes para gas * precio + valor. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETH to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
-GETH_IntrinsicGas               :  '(geth-05) Gas intrínseco demasiado bajo. Intrinsic gas too low. Try raising the gas price to 21 GWEI via the dropdown in top-right or the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again.',
-GETH_InvalidSender              :  '(geth-06) Remitente no válido. Invalid sender.',
-GETH_NegativeValue              :  '(geth-07) Valor negativo. Negative value.',
-GETH_Nonce                      :  "(geth-08) Nonce demasiado bajo. This TX's [nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html).",
-GETH_NonExistentAccount         :  '(geth-09) La cuenta no existe o tiene un saldo insuficiente. Account does not exist or account balance too low',
+GXERO_Balance                    :  '(geth-01) Saldo insuficiente. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more XERO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GXERO_Cheap                      :  '(geth-02) Precio de gas demasiado bajo para aceptación. Gas price too low for acceptance. Try raising the gas price to 21 GWEI via the dropdown in top-right.',
+GXERO_GasLimit                   :  '(geth-03) Sobrepasa el límite de gas del bloque. Exceeds block gas limit. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)',
+GXERO_InsufficientFunds          :  '(geth-04) Fondos no suficientes para gas * precio + valor. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more XERO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)',
+GXERO_IntrinsicGas               :  '(geth-05) Gas intrínseco demasiado bajo. Intrinsic gas too low. Try raising the gas price to 21 GWEI via the dropdown in top-right or the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again.',
+GXERO_InvalidSender              :  '(geth-06) Remitente no válido. Invalid sender.',
+GXERO_NegativeValue              :  '(geth-07) Valor negativo. Negative value.',
+GXERO_Nonce                      :  "(geth-08) Nonce demasiado bajo. This TX's [nonce](https://kb.myetherwallet.com/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html).",
+GXERO_NonExistentAccount         :  '(geth-09) La cuenta no existe o tiene un saldo insuficiente. Account does not exist or account balance too low',
 
 PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
 PARITY_GasLimitExceeded         :  "(parity-02) Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)",
@@ -626,7 +626,7 @@ PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not s
 
 SUCCESS_1                   : 'Dirección válida ',
 SUCCESS_2                   : 'Cartera descifrada con éxito ',
-SUCCESS_3                   : 'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //'Transacción enviada. TX Hash ',
+SUCCESS_3                   : 'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [XERO Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //'Transacción enviada. TX Hash ',
 SUCCESS_4                   : 'Se ha añadido tu cartera ',
 SUCCESS_5                   : 'Archivo seleccionado ',
 SUCCESS_6                   : 'You are successfully connected ',
@@ -656,7 +656,7 @@ TranslatorAddr_5            : '',
 HELP_Warning                : 'Si creaste una cartera -o- descargaste el repositorio antes del **31 de diciembre de 2015**, por favor comprueba tus carteras y descarga una nueva versión del repositorio. Haz clic para más información. ',
 HELP_Desc                   : '¿Echas algo en falta? ¿Tienes alguna otra pregunta? [Contacta con nosotros](mailto:support@myetherwallet.com) y no solamente contestaremos tu pregunta, sino que mejoraremos esta página para que sea más útil en el futuro. ',
 HELP_Remind_Title           : 'Algunos recordatorios ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com y MyEtherWallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus ETH. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del Ether perdido**. ',
+HELP_Remind_Desc_1          : '**Xerom, MyEtherWallet.com y MyEtherWallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus XERO. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del Ether perdido**. ',
 HELP_Remind_Desc_2          : 'MyEtherWallet.com y MyEtherWallet CX no son "carteras web". No estás creando una cuenta ni nos estás entregando tus Ether para que los guardemos. Toda tu información nunca abandona tu equipo o tu navegador. Te facilitamos que puedas crear, guardar y acceder a tu información e interactuar con la blockchain. ',
 HELP_Remind_Desc_3          : 'Si no guardas tu clave privada y contraseña, no hay modo alguno de recuperar el acceso a tu cartera o a los fondos que ésta contiene. ¡Haz copias de seguridad en múltiples ubicaciones físicas, no solamente en tu equipo! ',
 
@@ -765,8 +765,8 @@ HELP_7_Desc_15              : 'The transaction will be submitted. The TX Hash wi
 
 HELP_8_Title                : '8) ¿Qué ocurre si vuestro sitio web deja de funcionar? ',
 HELP_8_Desc_1               : 'MyEtherWallet no es una cartera web. No tienes un login y nunca se graba nada en nuestros servidores. You don\'t have a login and nothing ever gets saved to our servers. Simplemente es una interfaz que te permite interactuar con la cadena de bloques. ',
-HELP_8_Desc_2               : 'Si MyEtherWallet.com desapareciera, tendrías que encontrar otra manera de poder hacer lo que haces con nosotros (como por ejemplo obtener geth o Ethereum Wallet / Mist). Pero no necesitarías retirar tus ether de MyEtherWallet porque no están en MyEtherWallet. Están en la cartera que hayas generado a través de nuestro sitio. ',
-HELP_8_Desc_3               : 'Puedes importar tu clave privada sin cifrar y tus archivos en formato Geth/Mist (cifrados) directamente en geth / Ethereum Wallet / Mist con mucha facilidad actualmente. Ver más abajo la pregunta #12. ',
+HELP_8_Desc_2               : 'Si MyEtherWallet.com desapareciera, tendrías que encontrar otra manera de poder hacer lo que haces con nosotros (como por ejemplo obtener geth o Xerom Wallet / Mist). Pero no necesitarías retirar tus ether de MyEtherWallet porque no están en MyEtherWallet. Están en la cartera que hayas generado a través de nuestro sitio. ',
+HELP_8_Desc_3               : 'Puedes importar tu clave privada sin cifrar y tus archivos en formato Geth/Mist (cifrados) directamente en geth / Xerom Wallet / Mist con mucha facilidad actualmente. Ver más abajo la pregunta #12. ',
 HELP_8_Desc_4               : 'Además, la probabilidad de que cerremos MyEtherWallet es casi nula. No nos cuesta prácticamente nada mantenerlo ya que no almacenamos ninguna información. Si borramos el dominio, continúa estando disponible y siempre lo estará en [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). Puedes descargar desde ahí el archivo ZIP y ejecutarlo localmente. ',
 
 HELP_8CX_Title              : '8) ¿Qué ocurre si MyEtherWallet CX desaparece? ',
@@ -790,14 +790,14 @@ HELP_10_Desc_9              : 'Press the "GENERATE SIGNED TRANSACTION" button. '
 HELP_10_Desc_10             : 'The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer. ',
 HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click "Enviar Ether y Tokens". This will broadcast your transaction. ',
 
-HELP_12_Title               : '12) How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist? ',
+HELP_12_Title               : '12) How do I import a wallet created with MyEtherWallet into geth / Xerom Wallet / Mist? ',
 HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from MyEtherWallet v2+.... ',
 HELP_12_Desc_2              : 'Go to the "View Wallet Info" page. ',
 HELP_12_Desc_3              : 'Unlock your wallet using your **encrypted** private key or JSON file. ',
 HELP_12_Desc_4              : 'Go to the "My Wallets" page. ',
 HELP_12_Desc_5              : 'Select the wallet you want to import into Mist, click the "View" icon, enter your password, and access your wallet. ',
 HELP_12_Desc_6              : 'Find the "Download JSON file - Geth/Mist Format (encrypted)" section. Press the "Download" button below that. You now have your keystore file. ',
-HELP_12_Desc_7              : 'Open the Ethereum Wallet application. ',
+HELP_12_Desc_7              : 'Open the Xerom Wallet application. ',
 HELP_12_Desc_8              : 'In the menu bar, go "Accounts" -> "Backup" -> "Accounts" ',
 HELP_12_Desc_9              : 'This will open your keystore folder. Copy the file you just downloaded (`UTC--2016-04-14......../`) into that keystore folder. ',
 HELP_12_Desc_10             : 'Your account should show up immediately under "Accounts." ',
@@ -811,15 +811,15 @@ HELP_12_Desc_16             : 'Open Text Edit and paste this private key. ',
 HELP_12_Desc_17             : 'Go to the menu bar and click "Format" -> "Make Plain Text". ',
 HELP_12_Desc_18             : 'Save this file to your `desktop/` as `nothing_special_delete_me.txt`. Make sure it says "UTF-8" and "If no extension is provided use .txt" in the save dialog. ',
 HELP_12_Desc_19             : 'Open terminal and run the following command: `geth account import ~/Desktop/nothing_special_delete_me.txt` ',
-HELP_12_Desc_20             : 'This will prompt you to make a new password. This is the password you will use in geth / Ethereum Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
+HELP_12_Desc_20             : 'This will prompt you to make a new password. This is the password you will use in geth / Xerom Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
 HELP_12_Desc_21             : 'After successful import, delete `nothing_special_delete_me.txt` ',
-HELP_12_Desc_22             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
+HELP_12_Desc_22             : 'The next time you open the Xerom Wallet application, your account will be listed under "Accounts". ',
 HELP_12_Desc_23             : 'Open Notepad & paste the private key ',
 HELP_12_Desc_24             : 'Save the file as `nothing_special_delete_me.txt` at `C:` ',
 HELP_12_Desc_25             : 'Run the command, `geth account import C:\\nothing_special_delete_me.txt` ',
-HELP_12_Desc_26             : 'This will prompt you to make a new password. This is the password you will use in geth / Ethereum Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
+HELP_12_Desc_26             : 'This will prompt you to make a new password. This is the password you will use in geth / Xerom Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
 HELP_12_Desc_27             : 'After successful import, delete `nothing_special_delete_me.txt` ',
-HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
+HELP_12_Desc_28             : 'The next time you open the Xerom Wallet application, your account will be listed under "Accounts". ',
 
 HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean? ',
 HELP_13_Desc_1              : 'This means you do not have enough Ether in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Ether. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Ether you were trying to send (if you were attempting to send Ether). This will give you the amount of Ether you need to send to that account to make the transaction. ',
@@ -846,13 +846,13 @@ HELP_20_Desc_1              : 'Wherever you saved it. ;) It also was emailed to 
 
 HELP_21_Title               : '21) Couldn\'t everybody put in random private keys, look for a balance, and send to their own account? ',
 HELP_21_Desc_1              : 'Short version: yes, but finding an account with a balance would take longer than the universe...so...no. ',
-HELP_21_Desc_2              : 'Long ELI5 Version: So Ethereum is based on [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography), specifically [Elliptic curve cryptography](https://eprint.iacr.org/2013/734.pdf) which is very widely used, not just in Ethereum. Most servers are protected via ECC. Bitcoin uses the same, as well as SSH and TLS and a lot of other stuff. The Ethereum keys specifically are 256-bit keys, which are stronger than 128-bit and 192-bit, which are also widely used and still considered secure by experts. ',
+HELP_21_Desc_2              : 'Long ELI5 Version: So Xerom is based on [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography), specifically [Elliptic curve cryptography](https://eprint.iacr.org/2013/734.pdf) which is very widely used, not just in Xerom. Most servers are protected via ECC. Bitcoin uses the same, as well as SSH and TLS and a lot of other stuff. The Xerom keys specifically are 256-bit keys, which are stronger than 128-bit and 192-bit, which are also widely used and still considered secure by experts. ',
 HELP_21_Desc_3              : 'In this you have a private key and a public key. The private key can derive the public key, but the public key cannot be turned back into the private key. The fact that the internet and the world’s secrets are using this cryptography means that if there is a way to go from public key to private key, your lost ether is the least of everyone’s problems. ',
 HELP_21_Desc_4              : 'Now, that said, YES if someone else has your private key then they can indeed send ether from your account. Just like if someone has your password to your email, they can read and send your email, or the password to your bank account, they could make transfers. You could download the Keystore version of your private key which is the private key that is encrypted with a password. This is like having a password that is also protected by another password. ',
 HELP_21_Desc_5              : 'And YES, in theory you could just type in a string of 64 hexadecimal characters until you got one that matched. In fact, smart people could write a program to very quickly check random private keys. This is known as "brute-forcing" or "mining" private keys. People have thought about this long and hard. With a few very high end servers, they may be able to check 1M+ keys / second. However, even checking that many per second would not yield access to make the cost of running those servers even close to worthwhile - it is more likely you, and your great-grandchildren, will die before getting a match. ',
 HELP_21_Desc_6              : 'If you know anything about Bitcoin, [this will put it in perspective:](http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver) *To illustrate how unlikely this is: suppose every satoshi of every bitcoin ever to be generated was sent to its own unique private keys. The probability that among those keys there could be two that would correspond to the same address is roughly one in 100 quintillion. ',
 HELP_21_Desc_7              : '[If you want something a bit more technical:](http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) *These numbers have nothing to do with the technology of the devices; they are the maximums that thermodynamics will allow. And they strongly imply that brute-force attacks against 256-bit keys will be infeasible until computers are built from something other than matter and occupy something other than space. ',
-HELP_21_Desc_8              : 'Of course, this all assumes that keys are generated in a truly random way & with sufficient entropy. The keys generated here meet that criteria, as do Jaxx and Mist/geth. The Ethereum wallets are all pretty good. Keys generated by brainwallets do not, as a person\'s brain is not capable of creating a truly random seed. There have been a number of other issues regarding lack of entropy or seeds not being generated in a truly random way in Bitcoin-land, but that\'s a separate issue that can wait for another day. ',
+HELP_21_Desc_8              : 'Of course, this all assumes that keys are generated in a truly random way & with sufficient entropy. The keys generated here meet that criteria, as do Jaxx and Mist/geth. The Xerom wallets are all pretty good. Keys generated by brainwallets do not, as a person\'s brain is not capable of creating a truly random seed. There have been a number of other issues regarding lack of entropy or seeds not being generated in a truly random way in Bitcoin-land, but that\'s a separate issue that can wait for another day. ',
 
 HELP_SecCX_Title            : 'Seguridad - MyEtherWallet CX ',
 HELP_SecCX_Desc_1           : '¿Dónde está guardando mi información esta extensión? ',
