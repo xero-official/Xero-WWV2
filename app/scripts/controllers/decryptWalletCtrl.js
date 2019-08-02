@@ -44,6 +44,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
     hwAkromaPath: 'm/44\'/200625\'/0\'/0', // first address: m/44'/200625'/0'/0/0
     hwESNetworkPath: 'm/44\'/31102\'/0\'/0', // first address: m/44'/31102'/0'/0/0
     hwEther1Path: 'm/44\'/1313114\'/0\'/0', // first address: m/44'/1313114'/0'/0/0
+    hwXeromPath: 'm/44\'/1313500\'/0\'/0', // first address: m/44'/1313500'/0'/0/0
     hwAtheiosPath: 'm/44\'/1620\'/0\'/0', // first address: m/44'/1620'/0'/0/0
     hwIolitePath: 'm/44\'/1171337\'/0\'/0', // first address: m/44'/1171337'/0'/0/0
     tomoPath: 'm/44\'/889\'/0\'/0', // first address: m/44'/889'/0'/0/0
@@ -91,6 +92,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
           break;
         case nodes.nodeTypes.ETHO:
           $scope.HDWallet.dPath = $scope.HDWallet.hwEther1Path;
+          break;
+        case nodes.nodeTypes.XERO:
+          $scope.HDWallet.dPath = $scope.HDWallet.hwXeromPath;
           break;
         case nodes.nodeTypes.ATH:
           $scope.HDWallet.dPath = $scope.HDWallet.hwAtheiosPath;
@@ -184,6 +188,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
         case nodes.nodeTypes.ETHO:
           $scope.HDWallet.dPath = $scope.HDWallet.hwEther1Path;
           break;
+        case nodes.nodeTypes.XERO:
+          $scope.HDWallet.dPath = $scope.HDWallet.hwXeromPath;
+          break;
         case nodes.nodeTypes.ATH:
           $scope.HDWallet.dPath = $scope.HDWallet.hwAtheiosPath;
           break;
@@ -251,6 +258,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
           break;
         case nodes.nodeTypes.ETHO:
           $scope.HDWallet.dPath = $scope.HDWallet.hwEther1Path;
+          break;
+        case nodes.nodeTypes.XERO:
+          $scope.HDWallet.dPath = $scope.HDWallet.hwXeromPath;
           break;
         case nodes.nodeTypes.EGEM:
           $scope.HDWallet.dPath = $scope.HDWallet.hwEtherGemPath;
@@ -481,9 +491,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
         walletService.password = $scope.privPassword;
       } else if ($scope.showPDecrypt && !$scope.requirePPass) {
         let privKey =
-          $scope.manualprivkey.indexOf('0x') === 0
-            ? $scope.manualprivkey
-            : '0x' + $scope.manualprivkey;
+          $scope.manualprivkey.indexOf('0x') === 0 ?
+          $scope.manualprivkey :
+          '0x' + $scope.manualprivkey;
 
         if (!$scope.Validator.isValidHex($scope.manualprivkey)) {
           $scope.notifier.danger(globalFuncs.errorMsgs[37]);
@@ -619,7 +629,9 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
     // trezor is using the path without change level id
     var path = $scope.getTrezorPath();
 
-    TrezorConnect.getPublicKey({path})
+    TrezorConnect.getPublicKey({
+        path
+      })
       .then(
         ({
           payload: {

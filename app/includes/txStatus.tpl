@@ -181,7 +181,7 @@
               </span>
             </td>
             <td>
-              ({{ txFee.eth }} ETH)
+              ({{ txFee.eth }} XERO)
               <small>({{ txFee.usd }} USD)</small>
             </td>
           </tr>

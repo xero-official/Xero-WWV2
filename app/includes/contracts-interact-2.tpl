@@ -48,7 +48,7 @@
           </span>
           <ul>
             <li translate="EOS_06">
-              Go to Send Ether & Tokens Page
+              Go to Send XERO & Tokens Page
             </li>
             <li translate="EOS_07">
               Unlock same wallet you are unlocking here.

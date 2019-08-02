@@ -177,10 +177,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- Add an Account to Watch -->
       <section ng-show="walletType=='watchonlyaccount'">
 
@@ -312,7 +308,7 @@
           <strong>
             {{etherBalance}}
           </strong>
-          ETH
+          XERO
         </li>
       </ul>
 
@@ -345,7 +341,6 @@
          class="btn btn-primary btn-xs">
            Swap via Bity
       </a>
-
       <h5 translate="sidebar_TransHistory">
         Transaction History:
       </h5>
@@ -461,13 +456,13 @@
                   <span ng-bind="HDWallet.defaultDPath"></span>
                 </label>
               </td>
-              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (ETH)</td>
+              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (XERO)</td>
             </tr>
 
             <tr>
               <td>
                 <label class="radio">
-                  <input aria-describedby="Path: Ledger (ETH) {{HDWallet.ledgerPath}}"
+                  <input aria-describedby="Path: Ledger (XERO) {{HDWallet.ledgerPath}}"
                          ng-change="onHDDPathChange()"
                          ng-model="HDWallet.dPath"
                          type="radio"

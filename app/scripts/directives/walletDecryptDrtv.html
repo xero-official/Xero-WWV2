@@ -1138,6 +1138,20 @@
 
             <div class="col-sm-4">
               <label class="radio small">
+                <input aria-describedby="Path: TREZOR (XERO) {{HDWallet.hwXeromPath}}"
+                       ng-change="onHDDPathChange()"
+                       ng-model="HDWallet.dPath"
+                       type="radio"
+                      value="{{HDWallet.hwXeromPath}}"/>
+                <span ng-bind="HDWallet.hwXeromPath"></span>
+                <p class="small">
+                  Network: Xerom (XERO)
+                </p>
+              </label>
+            </div>
+
+            <div class="col-sm-4">
+              <label class="radio small">
                 <input aria-describedby="Path: TREZOR (ATH) {{HDWallet.hwAtheiosPath}}"
                         ng-change="onHDDPathChange()"
                         ng-model="HDWallet.dPath"

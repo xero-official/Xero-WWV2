@@ -30,12 +30,12 @@
                 <div class="balance-block">
                   <h3 class="block-title">Balance</h3>
                   <p class="balance-amount" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)">
-                    {{twallet.balance|number}} ETH
+                    {{twallet.balance|number}} XERO
                   </p>
                   <p class="balance-amount"
                       ng-show="showLongBal"
                       ng-dblclick="showLongBal=!showLongBal">
-                        {{twallet.balance }} ETH
+                        {{twallet.balance }} XERO
                   </p>
                 </div>
 
@@ -87,12 +87,12 @@
                 <div class="balance-block">
                   <h3 class="block-title">Balance</h3>
                   <p class="balance-amount" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)">
-                    {{twallet.balance|number}} ETH
+                    {{twallet.balance|number}} XERO
                   </p>
                   <p class="balance-amount"
                       ng-show="showLongBal"
                       ng-dblclick="showLongBal=!showLongBal">
-                        {{twallet.balance }} ETH
+                        {{twallet.balance }} XERO
                   </p>
                 </div>
 
