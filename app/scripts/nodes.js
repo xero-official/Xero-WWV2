@@ -407,8 +407,8 @@ nodes.nodeList = {
 		type: nodes.nodeTypes.XERO,
 		eip155: true,
 		chainId: 1313500,
-		tokenList: require("./tokens/ethoTokens.json"),
-		abiList: require("./abiDefinitions/ethoAbi.json"),
+		tokenList: require("./tokens/xeroTokens.json"),
+		abiList: require("./abiDefinitions/xeroAbi.json"),
 		estimateGas: true,
 		service: "xerom.org",
 		lib: new nodes.customNode("https://rpc.xerom.org", "")
