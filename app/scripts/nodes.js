@@ -4,6 +4,8 @@ nodes.customNode = require("./nodeHelpers/customNode");
 nodes.infuraNode = require("./nodeHelpers/infura");
 nodes.metamaskNode = require("./nodeHelpers/metamask");
 nodes.nodeTypes = {
+  XERO: "XERO",
+  ETHO: "ETHO",
   ETH: "ETH",
   ETC: "ETC",
   Ropsten: "ROPSTEN ETH",
@@ -23,8 +25,6 @@ nodes.nodeTypes = {
   AKA: "AKA",
   ESN: "ESN",
   PIRL: "PIRL",
-  ETHO: "ETHO",
-  XERO: "XERO",
   ATH: "ATH",
   ILT: "ILT",
   WEB: "WEB",
@@ -49,17 +49,31 @@ nodes.customNodeObj = {
   lib: null
 };
 nodes.nodeList = {
-  eth_mew: {
-    name: "ETH",
-    blockExplorerTX: "https://etherscan.io/tx/[[txHash]]",
-    blockExplorerAddr: "https://etherscan.io/address/[[address]]",
-    type: nodes.nodeTypes.ETH,
+  xero: {
+    name: "XERO",
+    blockExplorerTX: "https://explorer.xerom.org/tx/[[txHash]]",
+    blockExplorerAddr: "https://explorer.xerom.org/addr/[[address]]",
+    type: nodes.nodeTypes.XERO,
     eip155: true,
-    chainId: 1,
-    tokenList: require("./tokens/ethTokens.json"),
-    abiList: require("./abiDefinitions/ethAbi.json"),
-    service: "myetherwallet.com",
-    lib: new nodes.customNode("https://api.myetherwallet.com/eth", "")
+    chainId: 1313500,
+    tokenList: require("./tokens/xeroTokens.json"),
+    abiList: require("./abiDefinitions/xeroAbi.json"),
+    estimateGas: true,
+    service: "xerom.org",
+    lib: new nodes.customNode("https://rpc.xerom.org", "")
+  },
+  etho: {
+    name: "ETHO",
+    blockExplorerTX: "https://explorer.ether1.org/tx/[[txHash]]",
+    blockExplorerAddr: "https://explorer.ether1.org/addr/[[address]]",
+    type: nodes.nodeTypes.ETHO,
+    eip155: true,
+    chainId: 1313114,
+    tokenList: require("./tokens/ethoTokens.json"),
+    abiList: require("./abiDefinitions/ethoAbi.json"),
+    estimateGas: true,
+    service: "ether1.org",
+    lib: new nodes.customNode("https://rpc.ether1.org", "")
   },
   eth_ethscan: {
     name: "ETH",
@@ -387,36 +401,10 @@ nodes.nodeList = {
     service: "pirl.io",
     lib: new nodes.customNode("https://wallrpc.pirl.io", "")
   },
-  etho: {
-    name: "ETHO",
-    blockExplorerTX: "https://explorer.ether1.org/tx/[[txHash]]",
-    blockExplorerAddr: "https://explorer.ether1.org/addr/[[address]]",
-    type: nodes.nodeTypes.ETHO,
-    eip155: true,
-    chainId: 1313114,
-    tokenList: require("./tokens/ethoTokens.json"),
-    abiList: require("./abiDefinitions/ethoAbi.json"),
-    estimateGas: true,
-    service: "ether1.org",
-    lib: new nodes.customNode("https://rpc.ether1.org", "")
-  },
-  xero: {
-    name: "XERO",
-    blockExplorerTX: "https://explorer.xerom.org/tx/[[txHash]]",
-    blockExplorerAddr: "https://explorer.xerom.org/addr/[[address]]",
-    type: nodes.nodeTypes.XERO,
-    eip155: true,
-    chainId: 1313500,
-    tokenList: require("./tokens/xeroTokens.json"),
-    abiList: require("./abiDefinitions/xeroAbi.json"),
-    estimateGas: true,
-    service: "xerom.org",
-    lib: new nodes.customNode("https://rpc.xerom.org", "")
-  },
   ath: {
     name: "ATH",
-    blockExplorerTX: "https://scan.atheios.com/tx/[[txHash]]",
-    blockExplorerAddr: "https://scan.atheios.com/addr/[[address]]",
+    blockExplorerTX: "https://explorer.atheios.org/tx/[[txHash]]",
+    blockExplorerAddr: "https://explorer.atheios.org/addr/[[address]]",
     type: nodes.nodeTypes.ATH,
     eip155: true,
     chainId: 1620,
@@ -424,7 +412,7 @@ nodes.nodeList = {
     abiList: require("./abiDefinitions/athAbi.json"),
     estimateGas: true,
     service: "wallet.atheios.com",
-    lib: new nodes.customNode("https://wallet.atheios.com", "8797")
+    lib: new nodes.customNode("https://rpc.atheios.org", "")
   },
   iolite: {
     name: "ILT",
