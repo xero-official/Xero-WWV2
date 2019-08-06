@@ -6,6 +6,7 @@ nodes.metamaskNode = require("./nodeHelpers/metamask");
 nodes.nodeTypes = {
   XERO: "XERO",
   ETHO: "ETHO",
+  ATH: "ATH",
   ETH: "ETH",
   ETC: "ETC",
   Ropsten: "ROPSTEN ETH",
@@ -25,7 +26,6 @@ nodes.nodeTypes = {
   AKA: "AKA",
   ESN: "ESN",
   PIRL: "PIRL",
-  ATH: "ATH",
   ILT: "ILT",
   WEB: "WEB",
   MIX: "MIX",
@@ -74,6 +74,19 @@ nodes.nodeList = {
     estimateGas: true,
     service: "ether1.org",
     lib: new nodes.customNode("https://rpc.ether1.org", "")
+  },
+  ath: {
+    name: "ATH",
+    blockExplorerTX: "https://explorer.atheios.org/tx/[[txHash]]",
+    blockExplorerAddr: "https://explorer.atheios.org/addr/[[address]]",
+    type: nodes.nodeTypes.ATH,
+    eip155: true,
+    chainId: 1620,
+    tokenList: require("./tokens/athTokens.json"),
+    abiList: require("./abiDefinitions/athAbi.json"),
+    estimateGas: true,
+    service: "Fallen Gravity",
+    lib: new nodes.customNode("https://rpc.fallengravity.xyz", "")
   },
   eth_ethscan: {
     name: "ETH",
@@ -400,19 +413,6 @@ nodes.nodeList = {
     estimateGas: true,
     service: "pirl.io",
     lib: new nodes.customNode("https://wallrpc.pirl.io", "")
-  },
-  ath: {
-    name: "ATH",
-    blockExplorerTX: "https://explorer.atheios.org/tx/[[txHash]]",
-    blockExplorerAddr: "https://explorer.atheios.org/addr/[[address]]",
-    type: nodes.nodeTypes.ATH,
-    eip155: true,
-    chainId: 1620,
-    tokenList: require("./tokens/athTokens.json"),
-    abiList: require("./abiDefinitions/athAbi.json"),
-    estimateGas: true,
-    service: "wallet.atheios.com",
-    lib: new nodes.customNode("https://rpc.atheios.org", "")
   },
   iolite: {
     name: "ILT",
