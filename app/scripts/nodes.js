@@ -51,8 +51,8 @@ nodes.customNodeObj = {
 nodes.nodeList = {
   xero: {
     name: "XERO",
-    blockExplorerTX: "https://explorer.xerom.org/tx/[[txHash]]",
-    blockExplorerAddr: "https://explorer.xerom.org/addr/[[address]]",
+    blockExplorerTX: "https://explorer.xerom.org/tx/[[txHash]]/internal_transactions",
+    blockExplorerAddr: "https://explorer.xerom.org/address/[[address]]/transactions",
     type: nodes.nodeTypes.XERO,
     eip155: true,
     chainId: 1313500,
